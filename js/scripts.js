@@ -120,5 +120,5 @@ document.addEventListener('DOMContentLoaded', function() {
         metaViewport.name = "viewport";
         document.head.appendChild(metaViewport);
     }
-    metaViewport.setAttribute('content', 'width=768px');
+    metaViewport.setAttribute('content', 'width=768');
 });
