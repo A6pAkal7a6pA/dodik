@@ -112,3 +112,13 @@ $(document).ready(function() {
 });
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var metaViewport = document.querySelector('meta[name="viewport"]');
+    if (!metaViewport) {
+        metaViewport = document.createElement('meta');
+        metaViewport.name = "viewport";
+        document.head.appendChild(metaViewport);
+    }
+    metaViewport.setAttribute('content', 'width=768px');
+});

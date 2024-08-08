@@ -9,20 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<script>
-/*
- * Paste into the end <head>
- */
- (function(){
-    var width = screen.width;
-    var oldViewport = document.querySelector('meta[name="viewport"]');
-	console.log(oldViewport);
-    var viewport = document.createElement('meta');
-    viewport.setAttribute('name', 'viewport');
-    viewport.setAttribute('content', 'width=' + '768');
-    document.head.replaceChild(viewport, oldViewport);
-})();
-	</script>
 </head>
 <body>
 	<div class="wrapper">
